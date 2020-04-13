@@ -55,6 +55,7 @@ PROJECT_APPS = [
     "keywords.apps.KeywordsConfig",
     "wishlists.apps.WishlistsConfig",
     "dataframes.apps.DataframesConfig",
+    "DataStructure",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
