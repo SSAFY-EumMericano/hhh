@@ -4,9 +4,9 @@ import os
 import shutil
 import datetime
 
-DATA_DIR = "./data/"
-DATA_FILE = os.path.join(DATA_DIR, "data.json")
-DUMP_FILE = os.path.join(DATA_DIR, "dump.pkl")
+DATA_DIR = "./backend/dataframes/csvToDataFrame/data/"
+DATA_FILE = os.path.join(DATA_DIR, "dining_code.json")
+DUMP_FILE = os.path.join(DATA_DIR, "dining_dump.pkl")
 
 store_columns = (
     "id",  # 음식점 고유번호
