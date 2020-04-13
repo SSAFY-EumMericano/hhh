@@ -25,6 +25,7 @@ from follows.views import FollowViewSet
 from comments.views import CommentViewSet
 from keywords.views import TagViewSet
 from wishlists.views import WishListViewSet
+from dataframes.views import DiningStoreViewSet
 from places.views import (
     StoreViewSet,
     LocationViewSet,
@@ -43,6 +44,7 @@ router.register("places/store", StoreViewSet)
 router.register("places/location", LocationViewSet)
 router.register("places/category", CategoryViewSet)
 router.register("places/review", ReviewViewSet)
+router.register(r"Dining/Stores", DiningStoreViewSet, basename="dining_stores")
 
 urlpatterns = [
     path("admin/", admin.site.urls),

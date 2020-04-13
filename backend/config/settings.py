@@ -54,6 +54,7 @@ PROJECT_APPS = [
     "places.apps.PlacesConfig",
     "keywords.apps.KeywordsConfig",
     "wishlists.apps.WishlistsConfig",
+    "dataframes.apps.DataframesConfig",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
@@ -123,7 +124,6 @@ SWAGGER_SETTINGS = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
-
 
 
 LANGUAGE_CODE = "ko-kr"
