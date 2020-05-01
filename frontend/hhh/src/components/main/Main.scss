@@ -52,6 +52,11 @@ body::-webkit-scrollbar {
         margin: 0;
         display: inline-block;
         overflow: scroll;
+        h1{
+            margin: 150px auto;
+            text-align: center;
+            font-family: "GmarketSansMedium";
+        }
     }
     .main-feed::-webkit-scrollbar {
         display: none;

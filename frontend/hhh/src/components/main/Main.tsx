@@ -117,6 +117,7 @@ class Main extends React.Component {
       <div className="main">
         {this.state.isSns ? (
           <div className="main-feed">
+              {this.state.feedlist.length == 0 ? <><h1>피드가 없어요<br/>ㅎㅎㅎ 리뷰를 작성해주세요!</h1></> : <></>}
             {this.state.feedlist.map((feed, i) => {
               return (
                 <>
